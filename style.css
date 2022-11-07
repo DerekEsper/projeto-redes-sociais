@@ -1,27 +1,28 @@
 @charset "UTF-8";
 
 * {
-  margin: 0px;
-  padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  height: 0px;
 }
 
 html, body {
-  height: 100vh;
-  width: 100vw;
   background-color: black;
+  width: 100vw;
+  height: 100vh;
+
 }
 
 body {
-  background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+  background: url('imagens/fundo-madeira.jpg') no-repeat top center;  
   background-size: cover;
   background-attachment: fixed;
 }
 
 main {
-  height: 100vh;
   position: relative;
-  
+  width: 100vw;
+  height: 100vh;  
 }
 
 section#telefone {
@@ -30,36 +31,17 @@ section#telefone {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  height: 627px;
-  width: 311px;
-  
-  background: url(imagens/frame-iphone.png) no-repeat; 
+  width: 308px;
+  height: 626px;
+  background: url('imagens/frame-iphone.png') no-repeat top center;  
 }
 
 iframe#tela {
   position: relative;
-  top: 80px;
-  left: 22px;
-  width: 269px;
-  height: 471px;
+  width: 265px;
+  height: 470px;
+  
+  top: 81px;
+  left: 21px;
+  
 }
-
-section#redes-sociais{
-  text-align: right;
-}
-
-section#redes-sociais img {  
-  width: 50px;
-  margin: 10px;
-  border-radius: 50%; /* deixa o logo redondo */
-  box-shadow: 2px 2px 5px rgba(7, 7, 7, 0.616);
-  box-sizing: border-box;
-}
-
-section#redes-sociais img:hover {
-  border: 2px solid rgba(253, 253, 253, 0.562);
-  transform: translate(-3px, -3px);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
-  transition: tranforme 0.8s, border 0.1s, ;
-}
-

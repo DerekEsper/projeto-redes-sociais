@@ -55,7 +55,7 @@ section#icons img {
 
 section#icons img:hover {
   border: 2px solid rgba(252, 251, 250, 0.767);
-  transform: translate(-3px, -3px);
+  transform: translate(-1px, -1px);
   box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.568);
   transition: 0.3s;
 }
